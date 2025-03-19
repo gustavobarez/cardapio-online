@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     background:linear-gradient(275deg, #05021F, #04233C);
+    color: white;
 }
 
 header{
@@ -73,6 +74,7 @@ main{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     width: 1rem 0;
     margin: 1rem 0;
+    color: black;
 }
 
 #lista-pedido {
