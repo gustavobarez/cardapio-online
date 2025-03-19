@@ -1,4 +1,4 @@
-# Site da Padaria - Carrinho de Compras
+# Site da Monte Cristo - Carrinho de Compras
 
 Este é um projeto simples de um site para uma padaria, onde os usuários podem adicionar itens ao carrinho de compras e visualizar o total do pedido. O projeto foi desenvolvido utilizando **HTML**, **CSS** e **JavaScript**.
 
@@ -19,7 +19,7 @@ Este é um projeto simples de um site para uma padaria, onde os usuários podem 
 
 - **index.html**: Contém a estrutura HTML do site, incluindo a lista de produtos e o carrinho.
 - **style.css**: Contém os estilos CSS para a aparência do site.
-- **script.js**: Contém a lógica JavaScript para adicionar itens ao carrinho, calcular o total e finalizar o pedido.
+- **carrinho.js**: Contém a lógica JavaScript para adicionar itens ao carrinho, calcular o total e finalizar o pedido.
 
 ## Tecnologias Utilizadas
 

@@ -52,5 +52,5 @@ botoesFinalizarPedido.addEventListener("click", () =>{
     listaPedido.innerHTML = '';
 
     // Reseta o valor total exibido para R$ 0,00
-    totalElemento.innerHTML = 'Total: R$ 0,00Ad'
+    totalElemento.innerHTML = 'Total: R$ 0,00'
 })
