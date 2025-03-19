@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="banner">
+        <div class="banner-container">
+            <h1>Padaria Monte Cristo</h1>
+            <p>A padaria com maior qualidade</p>
+            <nav>
+                <a href="#paes">Pães</a>
+                <a href="#bebidas">Bebidas</a>
+                <a href="#pedidos">Pedido</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Pizzas</h2>
+        <section id="Paes" class="categoria">
+            <div class="produto">
+                <img src="img/pao-frances.jpg" alt="">
+                <h3>Pão frances</h3>
+                <p>Pao frances tradicional da casa</p>
+                <p>5 paẽs</p>
+                <span class="preco">R$ 2,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="produto">
+                <img src="img/Pao-de-Leite.jpg" alt="">
+                <h3>Pão de leite</h3>
+                <p>Pão de leite tradicional da casa</p>
+                <p>5 Pães</p>
+                <span class="preco">R$ 5,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="produto">
+                <img src="img/pao_forma.jpg" alt="">
+                <h3>Pão de forma</h3>
+                <p>Pão de forma no pacote com uma das mellhores produtoras!</p>
+                <p>Pão de forma um pacote</p>
+                <span class="preco">R$ 10,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+        </section>
+
+        <h2>Bebidas</h2>
+        <section id="Bebidas" class="categoria">
+            <div class="produto">
+                <img src="img/refris.png" alt="">
+                <h3>Refrigerantes latas</h3>
+                <p>Refrigerantes Coca-Cola(320 ml)</p>
+                <span class="preco">R$ 8,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="produto">
+                <img src="img/sucos.png" alt="">
+                <h3>Sucos</h3>
+                <p>Sucos Naturais (300ml)</p>
+                <span class="preco">R$ 6,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="produto">
+                <img src="img/cafe.jpg" alt="">
+                <h3>Cafés</h3>
+                <p>Café feito na hora (200ml)</p>
+                <span class="preco">R$ 5,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+        </section>
+        
+        <section id="Pedido">
+            <h2>Seu Pedido</h2>
+            <ul id="lista-pedido">
+            
+            </ul>
+            <p id="total">Total: R$: 0,00</p>
+            <button id="finalizar-pedido">Finalizar</button>
+        </section>
+
+        <section id="Contato"></section>
+        <h2>Contatos</h2>
+    </main>
+    <footer>&copy Padaria Monte Cristo - 2025</footer>
+</body>
+<script src="src/carrinho.js"></script>
+</html>
