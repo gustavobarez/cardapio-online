@@ -1,0 +1,130 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(275deg, #05021F, #04233C);
+}
+
+header{
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem 0;
+    background-image: url('/img/fogo.png');
+    background-position: center;
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: #590876;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    border-radius: 4px;
+}
+nav a:hover{
+    background-color: #6A10EB;
+    color: aliceblue;
+}
+
+main{
+    width: 80%;
+    margin: 2rem auto;
+}
+.categoria{
+    margin-bottom: 2rem;
+}
+.produto{
+    background-color: #590876;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.produto img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+.preco{
+    font-weight: bold;
+    color: #05021F;
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+.adicionar{
+    background-color: aliceblue;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#Pedido {
+    background-color: #f9f9f9; /* Fundo mais neutro para o pedido */
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 1rem 0;
+    margin: 1rem 0;
+}
+
+#lista-pedido {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+   border-radius: 8px;
+}
+
+#total {
+    font-weight: bold;
+    color: #6A10EB;
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#finalizar-pedido {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #590876;;
+    color: whitesmoke;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#finalizar-pedido:hover {
+    background-color: #590876;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(18, 140, 211);
+    color: whitesmoke;
+    padding: 1rem 0;
+}
+@media (min-width: 768px){
+    main{
+        width: 60%;
+    }
+    .categoria{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+}
